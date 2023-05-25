@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    background-color: #f7d794;
+    height: 100vh;
+    width: 100vw;
+}
+
+/*? Landing page */
+.click{
+    top: 50%;
+    left: 50%;
+    display: flex;
+    padding: 2em 5em;
+    position: absolute;
+    text-align: center; 
+    border-radius: 50px;
+    background-color: #f5cd79;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+#click_extra{
+    color: transparent;
+    transition: 0.5s ease;
+}
+
+.click:hover{
+    /* background-color: #f5ce79e7; */
+    box-shadow: 0 2px 4px rgba(0, 0, 0);
+}
+
+.click:hover #click_extra{
+    color: black;
+}
